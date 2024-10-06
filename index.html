@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>NCodeArt - Enjoy Holidays</title>
+    <title>Daily Horeca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body, html {
@@ -22,6 +22,10 @@
         .logo {
             font-size: 50px;
             font-weight: bold;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
         }
         .logo span {
             display: block;
@@ -37,50 +41,38 @@
             font-size: 20px;
             margin-bottom: 40px;
         }
-        .subscribe-button {
-            display: inline-block;
-            padding: 15px 30px;
-            border: 2px solid white;
-            border-radius: 30px;
-            font-size: 20px;
-            text-decoration: none;
-            color: white;
-            margin-bottom: 40px;
-        }
         .social-icons {
-            margin-bottom: 20px;
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
         }
         .social-icons i {
             margin: 0 10px;
             font-size: 20px;
         }
         .footer {
-            font-size: 14px;
-        }
-        .menu-icon {
             position: absolute;
-            top: 20px;
-            right: 20px;
-            font-size: 30px;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
-    <!-- <div class="menu-icon">
-        <i class="fas fa-bars"></i>
-    </div> -->
+    <div class="logo">
+        Daily Horeca
+    </div>
     <div class="container">
-        <div class="logo">
-            Daily Horeca
-        </div>
         <div class="title">COMING SOON</div>
         <!-- <div class="subtitle">explore destination with ncodeart tours.</div> -->
-        <div class="social-icons">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-youtube"></i>
-        </div>
-        <div class="footer">DailyHoreca © 2024</div>
     </div>
+    <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+    <div class="footer">DailyHoreca © 2024</div>
 </body>
 </html>
