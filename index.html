@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Daily Horeca</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body, html {
@@ -30,10 +31,13 @@ body, html {
   background-size: cover;
 }
 
+.content{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+
 /* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -51,12 +55,12 @@ body, html {
 <body>
 
 <div class="bg-image"></div>
-
-<div class="bg-text">
-  <h2>Blurred Background</h2>
-  <h1 style="font-size:50px">I am John Doe</h1>
-  <p>And I'm a Photographer</p>
+<div class="content">
+    <div class="bg-text">
+    <h2>Blurred Background</h2>
+    <h1 style="font-size:50px">I am John Doe</h1>
+    <p>And I'm a Photographer</p>
+    </div>
 </div>
-
 </body>
 </html>
