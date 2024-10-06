@@ -1,98 +1,62 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Daily Horeca</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        body, html {
-            /* margin: 0;
-            padding: 0;
-            width: 100%; */
-            height: 100%;
-            /* font-family: 'Arial', sans-serif;
-            color: white;
-            text-align: center;
-            background: url('https://raw.githubusercontent.com/afeefksd/dailyhoreca/refs/heads/main/bg.png') no-repeat center center fixed;
-            background-size: cover;
-            filter: blur(8px);
-            -webkit-filter: blur(8px); */
-        }
-        .bg-image {
-        /* The image used */
-        background-image: url("https://raw.githubusercontent.com/afeefksd/dailyhoreca/refs/heads/main/bg.png");
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-        /* Add the blur effect */
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
+* {
+  box-sizing: border-box;
+}
 
-        /* Full height */
-        height: 100%;
+.bg-image {
+  /* The image used */
+  background-image: url("https://raw.githubusercontent.com/afeefksd/dailyhoreca/refs/heads/main/bg.png");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-        .container {
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-        .logo {
-            font-size: 50px;
-            font-weight: bold;
-            position: absolute;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .logo span {
-            display: block;
-            font-size: 30px;
-            font-weight: normal;
-        }
-        .title {
-            font-size: 60px;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-        .subtitle {
-            font-size: 20px;
-            margin-bottom: 40px;
-        }
-        .social-icons {
-            position: absolute;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            padding-bottom: 20px;
-        }
-        .social-icons i {
-            margin: 0 10px;
-            font-size: 20px;
-        }
-        .footer {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 14px;
-        }
-    </style>
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
 </head>
 <body>
-    <div class="bg-image"></div>
-    <div class="logo">
-        Daily Horeca
-    </div>
-    <div class="container">
-        <div class="title">COMING SOON</div>
-        <!-- <div class="subtitle">explore destination with ncodeart tours.</div> -->
-    </div>
-    <div class="social-icons">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-youtube"></i>
-    </div>
-    <div class="footer">DailyHoreca © 2024</div>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h2>Blurred Background</h2>
+  <h1 style="font-size:50px">I am John Doe</h1>
+  <p>And I'm a Photographer</p>
+</div>
+
 </body>
 </html>
